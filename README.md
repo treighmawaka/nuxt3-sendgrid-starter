@@ -14,9 +14,11 @@
 - TypeScript
 
 ## Clone locally
+```bash
 npx degit treighmawaka/nuxt3-sendgrid-starter my-nuxt3-sendgrid-app
 cd my-nuxt3-sendgrid-app
 pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
+```
 
 ## Setup SendGrid environment variables
 Rename `.env.example` to `.env` and add your app's [SendGrid environment variables](https://github.com/sendgrid/sendgrid-nodejs/tree/main/packages/client#setup-environment-variables)
